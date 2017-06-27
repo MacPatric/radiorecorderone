@@ -1,0 +1,13 @@
+{
+  "name": "streamrecorderdata",
+  "description": "streamrecorderdata description",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "mocha --harmony"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  }
+}

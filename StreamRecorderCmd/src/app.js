@@ -1,5 +1,9 @@
 "use strict";
 
+/**
+ * cmdline facade for the StreamRecorder class
+ */
+
 const program = require("commander");
 const StreamRecorder = require("./de.pschirrmann.radioRecorderONE").streamrecorder; 
 
@@ -17,7 +21,7 @@ program
 	.action(function(streamUrl) {
 		if (streamUrl === "undefined" || 
 				program.duration === "undefined" ||
-				program.filename === "undefined") {
+				program.file === "undefined") {
 			program.outputHelp();
 			process.exit(1);
 		}

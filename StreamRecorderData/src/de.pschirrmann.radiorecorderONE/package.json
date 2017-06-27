@@ -1,0 +1,5 @@
+{
+  "name": "de.pschirrmann.radioRecorderONE",
+  "description": "RadioRecorderONE as Node app",
+  "main": "index.js"
+}
