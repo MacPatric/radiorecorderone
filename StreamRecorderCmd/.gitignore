@@ -1,1 +1,7 @@
+/.settings/
+/node_modules/
+
 /test.mp3
+/.project
+/.tern-project
+
