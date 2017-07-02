@@ -2,7 +2,7 @@
 
 class RadioShow {
 	constructor(title, length) {
-		// super(); // exception in mocha test
+		// super(); // exception in mocha test (seems to be a bug in V8)
 		this.title = title;
 		this.length = length;
 	}
@@ -10,7 +10,7 @@ class RadioShow {
 
 class RadioStation {	
 	constructor(name, url) {
-		// super(); // exception in mocha test
+		// super(); // exception in mocha test (seems to be a bug in V8)
 		this.name = name;
 		this.url = url;
 		this.radioShows = new Set();	// creates a collection of unique items
@@ -31,7 +31,6 @@ class RadioStation {
 		this.radioShows.delete(showToBeRemoved);
 		return this.radioShows.size;
 	}
-	
 }
 
 //export API
