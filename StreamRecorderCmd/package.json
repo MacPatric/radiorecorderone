@@ -4,7 +4,7 @@
   "version": "0.2.1",
   "main": "src/app.js",
   "bin": {
-  	"streamrecord": "src/app.js"
+    "streamrecord": "src/app.js"
   },
   "scripts": {
     "start": "node src/app.js"
